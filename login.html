@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        center {
+            display: block;
+            text-align: center;
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 50%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            background-color: #b47070;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        input[type="submit"] {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+            box-sizing: border-box;
+            border: 1px solid #834d4d;
+            border-radius: 4px;
+            background-color: #edecec;
+        }
+
+        input[type="submit"] {
+            background-color: #3498db;
+            color: #e0d3d3;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <center>User login</center>
+    <center>
+        <table>
+            <tr>
+                <td>Username</td>
+                <td><input type="text" name="txt_uname" autocomplete="off"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="pass"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" name="submit"></td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
